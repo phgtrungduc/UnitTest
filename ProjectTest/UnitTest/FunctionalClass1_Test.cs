@@ -30,9 +30,18 @@ namespace ProjectTest.UnitTest
             [TestCaseSource(typeof(FunctionalClass1_Test_Helper), nameof(FunctionalClass1_Test_Helper.TestCase1))]
             public Task TestSomething1(string nameTC, ReportInfo data)
             {
-                _functionalClass._reportInfo = data;    
+                _functionalClass._reportInfo = data;
                 var res = _functionalClass.GetData();
-                return Verify(res,_verifySettings);
+                return Verify(res, _verifySettings);
+            }
+
+            [Test]
+            [TestCaseSource(typeof(FunctionalClass1_Test_Helper), nameof(FunctionalClass1_Test_Helper.TestCase2))]
+            public void TestSomething2(string nameTC, Dictionary<string, object> data)
+            {
+                _functionalClass.GetDataForReport().Returns(data);
+                var res = _functionalClass.GetData2();
+                Assert.AreEqual(res, 1);
             }
         }
     }

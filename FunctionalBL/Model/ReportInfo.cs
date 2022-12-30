@@ -21,4 +21,11 @@ namespace FunctionalBL.Model
     }
     public class ReportParam { 
     }
+
+    public class DictionaryData {
+        public Guid? SysExpenseId { get; set; }
+        public Guid? ParentId { get; set; }
+        public string ExpenseCode { get; set; }
+        public string ExpenseName { get; set; }
+    }
 }

@@ -54,7 +54,7 @@ namespace ProjectTest.Helper
                 new ReportInfo(){
                     ConnectionString = "empty",
                     ReportList = new ReportList(),
-                    PrintReportParam = new PrintReportParam() { 
+                    PrintReportParam = new PrintReportParam() {
                         ReportParam = null
                     }
                 }
@@ -79,6 +79,20 @@ namespace ProjectTest.Helper
                     }
                 }
             },
+        };
+        public static object[] TestCase2 = new object[] {
+            new object[]{"TC1",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { ExpenseName = "PTDuc1", ExpenseCode = "EXP_PTDuc1" } } },
+                { "ReportData",new List<ReportData>(){} }
+            } },
+            new object[]{"TC2",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { ExpenseName = "PTDuc2", ExpenseCode = "EXP_PTDuc2" } } },
+                { "ReportData",new List<ReportData>(){} }
+            } },
+            //new object[]{"TC3",new Dictionary<string, object> {
+            //    { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { ExpenseName = "PTDuc1", ExpenseCode = "EXP_PTDuc2" } } },
+            //    { "ReportData",new List<ReportData>(){} }
+            //} }
         };
     }
 }

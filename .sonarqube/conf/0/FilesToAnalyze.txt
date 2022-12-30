@@ -1,0 +1,3 @@
+﻿F:\Project\UnitTest\FunctionalBL\BL\FunctionalClass1.cs
+F:\Project\UnitTest\FunctionalBL\Class1.cs
+F:\Project\UnitTest\FunctionalBL\Model\ReportInfo.cs

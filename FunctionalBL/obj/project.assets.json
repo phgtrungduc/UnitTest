@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\Unittest\\FunctionalBL\\FunctionalBL.csproj",
+      "projectUniqueName": "F:\\Project\\UnitTest\\FunctionalBL\\FunctionalBL.csproj",
       "projectName": "FunctionalBL",
-      "projectPath": "F:\\Project\\Unittest\\FunctionalBL\\FunctionalBL.csproj",
+      "projectPath": "F:\\Project\\UnitTest\\FunctionalBL\\FunctionalBL.csproj",
       "packagesPath": "C:\\Users\\PhuongTrungDuc\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\Unittest\\FunctionalBL\\obj\\",
+      "outputPath": "F:\\Project\\UnitTest\\FunctionalBL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
