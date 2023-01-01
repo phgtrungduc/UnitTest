@@ -94,5 +94,39 @@ namespace ProjectTest.Helper
             //    { "ReportData",new List<ReportData>(){} }
             //} }
         };
+        public static object[] TestCase3 = new object[] {
+            new object[]{"TC1",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { SysExpenseId = Guid.Parse("675703CC-1689-4B75-A01F-D5EE0B1602E3") } } },
+                { "ReportData",new List<ReportData>(){} }
+            } },
+            new object[]{"TC2",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { SysExpenseId = Guid.Empty } } },
+                { "ReportData",new List<ReportData>(){} }
+            } },
+            //new object[]{"TC3",new Dictionary<string, object> {
+            //    { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { SysExpenseId = null} } },
+            //    { "ReportData",new List<ReportData>(){} }
+            //} }
+        };
+        public static object[] TestCase4 = new object[] {
+            new object[]{"TC1",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { Grade = 1 } } },
+                { "ReportData",new List<ReportData>(){} }
+            } },
+            new object[]{"TC2",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { Grade = 2 } } },
+                { "ReportData",new List<ReportData>(){} }
+            } }
+        };
+        public static object[] TestCase5 = new object[] {
+            new object[]{"TC1",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { Amount = 1 } } },
+                { "ReportData",new List<ReportData>(){} }
+            } },
+            new object[]{"TC2",new Dictionary<string, object> {
+                { "DictionaryData",new List<DictionaryData>{ new DictionaryData() { Amount = 2 } } },
+                { "ReportData",new List<ReportData>(){} }
+            } }
+        };
     }
 }

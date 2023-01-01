@@ -36,8 +36,24 @@ namespace ProjectTest.UnitTest
             }
 
             [Test]
-            [TestCaseSource(typeof(FunctionalClass1_Test_Helper), nameof(FunctionalClass1_Test_Helper.TestCase2))]
+            [TestCaseSource(typeof(FunctionalClass1_Test_Helper), nameof(FunctionalClass1_Test_Helper.TestCase3))]
             public void TestSomething2(string nameTC, Dictionary<string, object> data)
+            {
+                _functionalClass.GetDataForReport().Returns(data);
+                var res = _functionalClass.GetData2();
+                Assert.AreEqual(res, 1);
+            }
+            [Test]
+            [TestCaseSource(typeof(FunctionalClass1_Test_Helper), nameof(FunctionalClass1_Test_Helper.TestCase4))]
+            public void TestSomething3(string nameTC, Dictionary<string, object> data)
+            {
+                _functionalClass.GetDataForReport().Returns(data);
+                var res = _functionalClass.GetData2();
+                Assert.AreEqual(res, 1);
+            }
+            [Test]
+            [TestCaseSource(typeof(FunctionalClass1_Test_Helper), nameof(FunctionalClass1_Test_Helper.TestCase5))]
+            public void TestSomething4(string nameTC, Dictionary<string, object> data)
             {
                 _functionalClass.GetDataForReport().Returns(data);
                 var res = _functionalClass.GetData2();

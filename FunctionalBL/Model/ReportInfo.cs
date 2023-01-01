@@ -16,16 +16,21 @@ namespace FunctionalBL.Model
     {
 
     }
-    public class PrintReportParam {
+    public class PrintReportParam
+    {
         public ReportParam ReportParam { get; set; }
     }
-    public class ReportParam { 
+    public class ReportParam
+    {
     }
 
-    public class DictionaryData {
+    public class DictionaryData
+    {
         public Guid? SysExpenseId { get; set; }
         public Guid? ParentId { get; set; }
         public string ExpenseCode { get; set; }
         public string ExpenseName { get; set; }
+        public int? Grade { get; set; }
+        public decimal? Amount { get; set; }
     }
 }

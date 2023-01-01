@@ -1,0 +1,299 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-6.22565.8 (53091686)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/Helper/FunctionalClass1_Test_Helper.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 17,
+                  "endLine": 16,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/Helper/FunctionalClass1_Test_Helper.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 40,
+                  "endLine": 21,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/Helper/FunctionalClass1_Test_Helper.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 34,
+                  "endLine": 34,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/Helper/FunctionalClass1_Test_Helper.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 40,
+                  "endLine": 49,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/Helper/FunctionalClass1_Test_Helper.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 39,
+                  "endLine": 58,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/Helper/FunctionalClass1_Test_Helper.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 39,
+                  "endLine": 78,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/Helper/FunctionalClass1_Test_Helper.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 123,
+                  "endLine": 103,
+                  "endColumn": 127
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_functionalClass' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/UnitTest/FunctionalClass1_Test.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 30,
+                  "endLine": 19,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/UnitTest/FunctionalClass1_Test.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 30,
+                  "endLine": 19,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_verifySettings' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/UnitTest/FunctionalClass1_Test.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 28,
+                  "endLine": 20,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/UnitTest/FunctionalClass1_Test.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 28,
+                  "endLine": 20,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/Project/UnitTest/ProjectTest/UnitTest/FunctionalClass1_Test.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 33,
+                  "endLine": 44,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8625": {
+          "id": "CS8625",
+          "shortDescription": "Cannot convert null literal to non-nullable reference type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8625)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S3415": {
+          "id": "S3415",
+          "shortDescription": "Assertion arguments should be passed in the correct order",
+          "fullDescription": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

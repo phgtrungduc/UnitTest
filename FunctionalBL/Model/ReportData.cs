@@ -11,7 +11,7 @@ namespace FunctionalBL.Model
     {
         [CustomAttribute]
         public string BudgetKindItemCode { get; set; }
-        public Guid? SysExpenseId { get; set; }
+        public Guid SysExpenseId { get; set; }
         public Guid? ParentId { get; set; }
         public string BudgetSubKindItemCode { get; set; }
         public string TemplateItemIndex { get; set; }
